@@ -1,0 +1,9 @@
+{
+  "name": "dashboard",
+  "short_name": "dashboard",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#000",
+  "theme_color": "#673ab8"
+}
