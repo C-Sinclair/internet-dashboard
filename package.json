@@ -1,0 +1,15 @@
+{
+  "name": "dashboard",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/C-Sinclair/internet-dashboard.git",
+  "author": "Conor <conor@wilxite.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "devDependencies": {
+    "cssnano": "^4.1.10"
+  }
+}
