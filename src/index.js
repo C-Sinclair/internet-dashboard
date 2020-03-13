@@ -1,9 +1,17 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+import { RendererProvider } from "react-fela";
+import { createRenderer } from "fela";
+import App from "./components/App";
+// import * as serviceWorker from './serviceWorker';
+import "./styles/main.css";
 
-import { render } from 'preact'
-import App from "./components/App"
-import "./styles/main"
-import { createRenderer } from 'fela'
+const renderer = createRenderer();
 
-render((
-    <App />
-), document.body)
+ReactDOM.render(
+    <RendererProvider renderer={renderer}>
+        <App />
+    </RendererProvider>,
+    document.getElementById("root"));
+
+// serviceWorker.register();
