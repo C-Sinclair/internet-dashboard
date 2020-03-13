@@ -5,6 +5,7 @@ A portal into the big wide web
 ## Nice to have
 
 - Needs a kickass icon
+- Clock
 - Links to most used sites
 - Links to documentation
 - Integrated JS terminal

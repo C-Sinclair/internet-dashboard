@@ -1,8 +1,11 @@
-const App = (
-  <main>
-    <h1>Welcome</h1>
-    <img src="../img/abstract-hexagon-geometric.jpg" />
-  </main>
+import Logo from './Logo'
+
+const App = () => (
+    <main>
+      <h1>Welcome</h1>
+      <Logo />
+      <span></span>
+    </main>
 );
 
 export default App;

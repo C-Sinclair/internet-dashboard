@@ -18,7 +18,11 @@
     "preact-cli": "^3.0.0-rc.6"
   },
   "dependencies": {
+    "fela": "^11.2.0",
     "preact": "^10.1.0",
-    "preact-render-to-string": "^5.1.2"
+    "preact-fela": "^11.2.0",
+    "preact-fela-simple": "^4.0.1",
+    "preact-render-to-string": "^5.1.2",
+    "react-fela": "^11.2.0"
   }
 }
