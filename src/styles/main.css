@@ -1,6 +1,7 @@
 body {
   background: black;
   color: white;
+  overflow: hidden;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
