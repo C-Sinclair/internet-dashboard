@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Clock = () => {
+const Social = () => {
     return (
         <div>
 
@@ -8,4 +8,4 @@ const Clock = () => {
     )
 }
 
-export default Clock
+export default Social

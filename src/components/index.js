@@ -5,6 +5,7 @@ import Clock from './Clock/Clock'
 import Documentation from './Documentation/Documentation'
 import Logo from './Logo/Logo'
 import Projects from './Projects/Projects'
+import Social from './Social/Social'
 import Terminal from './Terminal/Terminal'
 
 export {
@@ -15,5 +16,6 @@ export {
     Documentation,
     Logo,
     Projects,
+    Social,
     Terminal,
 }
