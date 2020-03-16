@@ -1,4 +1,5 @@
 import React from 'react';
+import { useFela } from 'react-fela';
 import {
   Logo,
   Clock,
@@ -10,7 +11,6 @@ import {
   Terminal,
 } from ".";
 import { reset, welcome } from '../styles/global'
-import { useFela } from 'react-fela';
 
 const App = props => {
   const { css } = useFela(props)
